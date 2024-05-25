@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel='stylesheet' href='rock.css'>
+		<title>Rock Paper Scissor game</title>
+	</head>
+	<body>
+		<p class='heading'>
+			Rock Paper Scissors
+		</p> 
+		<div>
+			<img class='rock' src='C:\Users\admin\Downloads\rock.png'
+			onclick="PickComputerVal('rock')";>
+			<img class='paper' src='C:\Users\admin\Downloads\paper.png'
+			onclick="PickComputerVal('paper')";>
+			<img class='scissor' src='C:\Users\admin\Downloads\scissor.png'
+			onclick="PickComputerVal('scissor');">
+		</div>
+		<p class='resultpredict'>
+		</p>
+		<div class='resultimage'>
+			<span class='text1'>You</span>
+			<img class='icon1' src='C:\Users\admin\Downloads\rock.png'>
+			<img class='icon2' src='C:\Users\admin\Downloads\rock.png'>
+			<span class='text2'>Computer</span>
+		</div>
+		<p class='resultscore'>
+		
+		</p>
+		<button class='reset' onclick="resetscores();">
+			Reset Score
+		</button>
+		<button class='autoplay' onclick="repeatplay();">
+			Autoplay
+		</button>
+		<script src='rock.js'></script>
+	</body>
+</html>
